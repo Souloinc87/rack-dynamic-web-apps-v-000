@@ -1,4 +1,5 @@
 class Application
+
   def call
     resp = Rack::Response.new
 
@@ -15,6 +16,6 @@ class Application
     else
       resp.write "You Lose"
     end
-    resp.finish 
+    resp.finish
   end
 end
