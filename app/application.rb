@@ -15,5 +15,6 @@ class Application
     else
       resp.write "You Lose"
     end
+    resp.finish 
   end
 end
